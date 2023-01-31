@@ -1,0 +1,6 @@
+# this is redis config file
+[es]
+    proxy = "172.17.221.29:9200"
+    timeout = 10 #秒
+    username = ""
+    password = ""

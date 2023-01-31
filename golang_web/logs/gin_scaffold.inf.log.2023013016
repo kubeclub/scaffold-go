@@ -1,0 +1,2 @@
+[INFO][2023-01-30T16:34:52.103][log.go:44] _com_request_in||uri=/demo/index||method=GET||args=map[]||spanid=a37fa95a380704bb||body=||from=::1||traceid=c0a8287663d7812c790097a6104dc7b0||cspanid=
+[INFO][2023-01-30T16:34:52.103][log.go:44] _com_request_out||method=GET||args=map[]||from=::1||proc_time=0.000225017||traceid=c0a8287663d7812c790097a6104dc7b0||uri=/demo/index||cspanid=||spanid=a37fa95a380704bb||response={\"errno\":3,\"errmsg\":\"::1, not in iplist\",\"data\":\"\",\"trace_id\":\"c0a8287663d7812c790097a6104dc7b0\",\"stack\":\"::1, not in iplist\"}

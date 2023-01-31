@@ -1,0 +1,6 @@
+# this is es config file
+[es]
+    proxy = "http://172.17.221.29:9200"
+    timeout = "10s" #秒
+    username = ""
+    password = ""

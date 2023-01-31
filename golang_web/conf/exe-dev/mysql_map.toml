@@ -1,0 +1,8 @@
+# this is mysql config
+[list]
+    [list.default]
+        driver_name = "mysql"
+        data_source_name = "u_hotwheel:Uaeean8733Ghey81f@tcp(rm-2ze3t9frwvl3ch421177.mysql.rds.aliyuncs.com:3306)/hotwheel?charset=utf8&parseTime=true&loc=Asia%2FChongqing"
+        max_open_conn = 20
+        max_idle_conn = 10
+        max_conn_life_time = 100
