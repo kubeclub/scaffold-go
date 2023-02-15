@@ -1,4 +1,4 @@
-# 工程脚手架要素
+![github](https://img.shields.io/badge/scaffold-golang-brightgreen)
 1. 工程结构
     - 模块划分/服务划分：为服务扩展性服务
     - 包结构划分：影响到代码的可阅读性、代码逻辑的高内聚低耦合等
@@ -9,7 +9,7 @@
     - 基础工具
     - 中间件调用封装
       - http-restful
-      - http-graphgl
+      - [http-graphgl](./docs/graphql.md)
       - mysql
       - redis
       - es
