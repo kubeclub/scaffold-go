@@ -104,5 +104,9 @@ func InitRouter(middlewares ...gin.HandlerFunc) *gin.Engine {
 	{
 		controller.ApiLoginRegister(apiAuthGroup)
 	}
+
+	graphqlGroup := router.Group("/graphql")
+	controller.ApiGraphqlRegister(graphqlGroup)
+
 	return router
 }

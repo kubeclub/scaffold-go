@@ -8,6 +8,11 @@
     - 鉴权
     - 基础工具
     - 中间件调用封装
+      - http-restful
+      - http-graphgl
+      - mysql
+      - redis
+      - es
     - 单元测试
 
 # golang 脚手架说明
@@ -23,6 +28,7 @@ replace exexm.com/golang_common => ./../golang_common //当前出于修改方便
 - viper
 - gorm
 - jwt
+- graphql
 - ...
 
 ## golang_common
